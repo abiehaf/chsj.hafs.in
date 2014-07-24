@@ -1,0 +1,58 @@
+<article class="hentry <%= item.layout %>" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPost" >
+  <% if (item.photos && item.photos.length){ %>
+    <%- partial('post/gallery') %>
+  <% } %>
+  <div>
+    <header class="header">
+      <% if (!index) { %>
+        <div class="pull-right"><%- partial('post/share') %></div>
+      <% } %>
+      <%- partial('post/title') %>
+    </header>
+    
+    <% if (item.excerpt && index){ %>
+      <div class="post-content entry-summary">
+        <%- item.excerpt %>
+        <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
+      </div>
+    <% } else { %>
+      <div class="post-content entry-content" itemprop="articleBody"><%- item.content %></div>
+    <% } %>
+    
+    <footer class="post-meta">
+      <div class="pull-left">
+        Posted by 
+        <span class="author hCard vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <a class="fn url" href="http://hafs.in" itemprop="url">Abi</a>
+        </span>
+        <% if (item.layout != 'page'){ %>
+          at <time datetime="<%= item.date.toDate().toISOString() %>" 
+            class="time published"><%= item.date.format(config.date_format) %></time>
+        <% } %>
+        <%- partial('post/category') %> &#x2022;
+        <% if (!index) { %>
+          <%- partial('post/tag') %>
+        <% } %>
+        <% if (item.updated) { %>
+          Updated on <time datetime="<%= item.updated.toDate().toISOString() %>" 
+            class="time updated"><%= item.date.format(config.date_format) %></time>.
+        <% } %>
+      </div>
+      <div class="pull-right">
+      <% if (index){ %>
+        <% if (item.comment && config.disqus_shortname){ %>
+        <div class="pull-right">
+          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
+        </div>
+        <% } %>
+      <% } else { %>
+        
+      <% } %>
+      </div>
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+<%- partial('comment') %>
+

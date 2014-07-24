@@ -1,0 +1,238 @@
+prompt = "abi@hafs.in:~/CHSJ$"
+
+body {
+    background-color: #fffdf4;
+    margin: 0;
+    padding: 0;
+    font-family: Open-sans, sans-serif;
+}
+
+
+a:link, a:visited {
+    color: #3d36c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3147b4;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 1em 0 0 0;
+}
+p {
+    margin: 0 0 1em 0;
+}
+blockquote {
+    margin: 0 0 .5em 2em;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+
+#main {
+    background-color: #2d2d2d;
+}
+
+#header {
+    padding: 3px 7px;
+    color: #ffffff;
+//    height: 25px;
+    line-height: 25px;
+    font-size: 10pt;
+    
+    a {
+        color #fff
+    }
+    
+    #title {
+        font-weight: bold;
+        float: left;
+        
+        
+        h1 {
+            margin: 0;
+            display: inline-block;
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHGSURBVDiNdZI9rtpAFIXP3Du2ZH4KXIEQoiEhSJCOJWQFdFSUiB6JMgt4C2AH7AGJDVCmSfTS0oIbS4OG+UmRNyMbkiuNRlOcz+ecazGZTL5JKd+I6KsQAkIIEBGEEACAXq8HKSW897Vjrf2plNqK6XT6YzAYzJrNZhRWAa1WC41GoyZ2zkEphcvl8ksy80xrDaUUiAjMHAFCCJRliU6nE4XhMDOY+QsBgDEG2+0Ws9kMzAwpJZIkQZqmeI4VnGmt/4K63e73LMvQbrexXC4xn89RliWu1yuklNERM7/EuN/vIO89AOB0OmG32+F2u2Gz2aA64WvVGB9FQobHcDjEYrFAv9/H4XCAMQbOOQCAcw5SSjjnYK2NdwQ457BarXA8HnE+nwGgltd7D6UUmLkGMMZAjMdjn+c5pJSxLCLCfr9HkiQxxnq9RpqmMYa1FkVRQIxGI5/neRQ+/wfVybKs1kNRFJDGGDwejxdAiBEihJuIYolaa8iQpbrnav4w3nsYY5AkSXRhjKk7eBY/OwgbCYDo4BlQFVcdAIC1NoK01pDe+3et9WdmflnfvzoAACIK63yXRLRVSr0B+PRS+3/mA/ybiLZ/AIRYR8JbOSR3AAAAAElFTkSuQmCC");
+            background-position: 5px 50%;       
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            
+            a:before {
+                content: "abi@hafs.in: ~/"
+            }
+        }
+    }
+    
+    .buttons {
+        float: right;
+        width: 48px;
+        height: 16px;
+        display: inline;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB9SURBVEiJY9TV1f3PMIQB00A7gFIw6oGBBizUNnD9+vV45QMDA4nSj64Ol/igjQHkgMAXKFSPARjAFYLE6IOpRdeDLfYGZQxgcyiupDcoPUAKGJQewJbccCVBjDxAaSlCrDnE6IPZhZwnhkwphOxQfIHGONoWGmAw6oGBBgDQ/C5LrbJa5gAAAABJRU5ErkJggg==') no-repeat;
+        margin-top: 5px;
+    }
+    
+    #main-nav {
+        font-size: .9em;
+        li {
+            display: inline-block;
+            margin: 0 2px;
+            
+            a {
+                display: box;
+                padding: 2px 5px;
+                
+                &:hover, &:focus {
+                    text-decoration: none;
+                    background-color: rgba(255, 255, 255, .2);
+                }
+            }
+        }
+    }
+        
+}
+
+.wrapper {
+    background-color: #fffdf4;
+    color: #444;
+    padding: 3px;
+    font-family: Ubuntu mono, monospace;
+    font-size: 12pt;
+    line-height: 1.2em;
+}
+
+#content {
+  min-height: 400px;
+  
+  
+  .header {
+      margin-bottom: .5em;
+      .title {margin: 0}
+  }
+  
+  .post-meta {
+      background-color: #444;
+      color: #bbb;
+      margin-bottom: 2em;
+      
+      .author, .time {
+          color: #ddd
+      }
+      
+      a {
+        color: #dde;
+        &:hover {
+          color: #eeeef3;
+        }
+      }
+      
+      .more-link {
+        font-weight: bold;
+      }
+  }
+  
+  .post-content {
+    margin-left: 2em;
+  }
+  
+  .page-title {
+    margin 0 0 1.5em
+  }
+
+  .prefixed  {
+    &:before, &:after {
+      font-weight: normal
+    }
+    
+    &:after {
+      content: '"'
+    }
+    
+    &.cat:before {
+      content prompt + ' cat "Posts/'
+    }
+      
+    &.ls:before {
+      content prompt + ' ls -al "'
+    }
+
+    &.category:before {
+      content prompt + ' ls -al "categories/'
+    }
+
+    &.tag:before {
+      content prompt + ' ls -al "tags/'
+    }
+    
+    &.ls:after, &.category:after, &.tag:after {
+      content '/*"';
+    }
+  }
+    
+    
+}
+
+@media (min-width: 930px) {
+    #main {
+        margin: 15px auto;
+        max-width: 900px;
+        border: 1px solid #2d2d2d;
+        box-shadow: 0 0 1px #ccc inset, 0 0 20px rgba(0, 0, 0, .3);
+    }
+    
+    .wrapper {
+        margin: 8px;
+        margin-top: 0;
+        box-shadow: 0 0 1px #000 inset;    
+    }
+    
+    body {
+        background-color: #cccccc;
+    }
+}
+
+@media (min-width: 500px) {
+  #sidebar {
+    .widget {
+      display inline-block
+      vertical-align: top
+      width: 47%
+      margin: 0 1%
+    }
+    
+  }
+}
+#sidebar {
+  .widget ul {
+    margin-left: 1em
+  }
+  
+  .tag li small {
+    &:before { content: "[" }
+    &:after { content: "]" }
+  }
+}
+
+#footer {
+    margin-top: 2em;
+    background-color: #eee;
+    color: #aaa;
+    text-align: center;
+    
+    a {
+      color: #888;
+    }
+}

@@ -1,0 +1,36 @@
+menu:
+  Beranda: /
+  "Apa Ini?": /tentang/
+  About Me: http://hafs.in/
+  "@abiehaf": https://twitter.com/abiehaf
+
+widgets:
+- recent_posts
+- tag
+
+excerpt_link: Read More
+
+google_plus: https://plus.google.com/+AbiHafshin
+fb_admins: 1667875686
+twitter:
+  username: abiehaf
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: true
+  pubid: ra-53d0a2ad1b2cf5e9
+  facebook: false
+  twitter: false
+  google: false
+  pinterest: false
+
+google_analytics:
+
+comment_provider: disqus
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light

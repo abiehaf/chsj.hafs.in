@@ -1,0 +1,13 @@
+<% if (item.link){ %>
+  <% if (item.title){ %>
+    <h2 class="title entry-title" itemprop="name"><a href="<%- item.link %>" itemprop="url" rel="bookmark" target="_blank"><%= item.title %></a></h1>
+  <% } else { %>
+    <h2 class="title entry-title" itemprop="name"><a href="<%- item.link %>" itemprop="url" rel="bookmark" target="_blank"><%= item.link %></a></h1>
+  <% } %>
+<% } else { %>
+  <% if (index){ %>
+    <h3 class="title entry-title" itemprop="name"><a href="<%- config.root %><%- item.path %>" itemprop="url" rel="bookmark"><%= item.title %></a></h2>
+  <% } else { %>
+    <h2 class="title entry-title prefixed cat" itemprop="name"><%= item.title %></h1>
+  <% } %>
+<% } %>

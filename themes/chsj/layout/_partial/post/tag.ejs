@@ -1,0 +1,9 @@
+<% if (item.tags && item.tags.length){ %>
+  <%
+  var tags = [];
+  item.tags.forEach(function(tag){
+    tags.push('<a href="' + config.root + tag.path + '" rel="tag">' + tag.name + '</a>');
+  });
+  %>
+  Tags: <%- tags.join(', ') %> &#x2022;
+<% } %>
