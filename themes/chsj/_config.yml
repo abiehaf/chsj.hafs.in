@@ -6,7 +6,7 @@ menu:
 
 widgets:
 - recent_posts
-- tag
+- category
 
 excerpt_link: Read More
 
@@ -25,7 +25,8 @@ addthis:
   google: false
   pinterest: false
 
-google_analytics:
+google_analytics: UA-53043721-2
+#google_analytics_domain: chsj.hafs.in
 
 comment_provider: disqus
 # Facebook comment
