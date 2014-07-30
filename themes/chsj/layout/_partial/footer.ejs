@@ -1,12 +1,12 @@
-<div class="alignleft">
-  <% if (config.author){ %>
-    Copyright &copy; <%= new Date().getFullYear() %> 
+<% if (config.author){ %>
+    Copyright &copy; <%= new Date().getFullYear() %>
     <% if (config.author_link){ %>
       <a href="<%= config.author_link %>" rel="author"><%= config.author %></a>
     <% } else { %>
       <%= config.author %>
     <% } %>
-  <% } else { %>
-  Copyright &copy; <%= new Date().getFullYear() %> <%= config.title %>
-  <% } %>
-</div>
+    <% } else { %>
+Copyright &copy; <%= new Date().getFullYear() %> <%= config.title %>
+<% } %>
+| Powered by <a href="http://hexo.io">hexo</a>
+
