@@ -1,12 +1,15 @@
 <% if (config.author){ %>
-    Copyright &copy; <%= new Date().getFullYear() %>
-    <% if (config.author_link){ %>
-      <a href="<%= config.author_link %>" rel="author"><%= config.author %></a>
-    <% } else { %>
-      <%= config.author %>
-    <% } %>
-    <% } else { %>
-Copyright &copy; <%= new Date().getFullYear() %> <%= config.title %>
+  (c) <span itemprop="copyrightYear"><%= new Date().getFullYear() %></span>
+  <span itemprop="copyrightHolder"  itemscope itemtype="http://schema.org/Person">
+  <% if (config.author_link){ %>
+    <a href="<%= config.author_link %>" rel="author" itemprop="url"><span itemprop="name"><%= config.author %></span></a>
+  <% } else { %>
+      <span itemprop="name"><%= config.author %></span>
+  <% } %>
+  </span>
+<% } else { %>
+&copy; <%= new Date().getFullYear() %> <%= config.title %>
 <% } %>
+| Licensed under <a href="http://creativecommons.org/licenses/by/3.0/" rel="license" itemprop="license">CC BY 3.0</a>
 | Powered by <a href="http://hexo.io">hexo</a>
 

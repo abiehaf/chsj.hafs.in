@@ -2,7 +2,7 @@
   <%
   var cats = [];
   item.categories.forEach(function(cat){
-    cats.push('<a href="' + config.root + cat.path + '" rel="tag">' + cat.name + '</a>');
+    cats.push('<a itemprop="keywords" href="' + config.root + cat.path + '" rel="tag">' + cat.name + '</a>');
   });
   %>
   on <%- cats.join(', ') %>

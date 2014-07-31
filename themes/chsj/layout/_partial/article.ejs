@@ -1,4 +1,4 @@
-<article class="hentry <%= item.layout %>" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPost" >
+<article class="hentry <%= item.layout %>" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" >
   <% if (item.photos && item.photos.length){ %>
     <%- partial('post/gallery') %>
   <% } %>
@@ -26,7 +26,7 @@
           <a class="fn url" href="http://hafs.in" itemprop="url"><%= config.author %></a>
         </span>
         <% if (item.layout != 'page'){ %>
-          at <time datetime="<%= item.date.toDate().toISOString() %>" 
+          at <time itemprop="datePublished" datetime="<%= item.date.toDate().toISOString() %>"
             class="time published"><%= item.date.format(config.date_format) %></time>
         <% } %>
         <%- partial('post/category') %> &#x2022;
@@ -34,7 +34,7 @@
           <%- partial('post/tag') %>
         <% } %>
         <% if (item.updated) { %>
-          Updated on <time datetime="<%= item.updated.toDate().toISOString() %>" 
+          Updated on <time itemprop="dateModified" datetime="<%= item.updated.toDate().toISOString() %>"
             class="time updated"><%= item.date.format(config.date_format) %></time>.
         <% } %>
       </div>
