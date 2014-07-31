@@ -23,7 +23,7 @@
       <div class="pull-left">
         Posted by 
         <span class="author hCard vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a class="fn url" href="http://hafs.in" itemprop="url">Abi</a>
+          <a class="fn url" href="http://hafs.in" itemprop="url"><%= config.author %></a>
         </span>
         <% if (item.layout != 'page'){ %>
           at <time datetime="<%= item.date.toDate().toISOString() %>" 
