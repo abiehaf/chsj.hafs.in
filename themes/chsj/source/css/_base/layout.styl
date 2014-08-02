@@ -55,6 +55,7 @@ blockquote
   #title
     font-weight bold
     float left
+    height 25px
 
     h1
       margin 0
@@ -63,6 +64,8 @@ blockquote
       background-position 5px 50%
       background-repeat no-repeat
       padding-left 30px
+      height 25px
+      overflow hidden
 
       a:before
         content "abi@hafs.in: ~/"
@@ -75,6 +78,10 @@ blockquote
     display inline
     background url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB9SURBVEiJY9TV1f3PMIQB00A7gFIw6oGBBizUNnD9+vV45QMDA4nSj64Ol/igjQHkgMAXKFSPARjAFYLE6IOpRdeDLfYGZQxgcyiupDcoPUAKGJQewJbccCVBjDxAaSlCrDnE6IPZhZwnhkwphOxQfIHGONoWGmAw6oGBBgDQ/C5LrbJa5gAAAABJRU5ErkJggg==') no-repeat
     margin-top 5px
+
+  @media (max-width: 400px)
+    .buttons
+      display none
 
 
   #main-nav
