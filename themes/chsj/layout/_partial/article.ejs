@@ -1,4 +1,4 @@
-<article class="hentry <%= item.layout %>" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" >
+<article role="article" class="hentry <%= item.layout %>" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" >
   <% if (item.photos && item.photos.length){ %>
     <%- partial('post/gallery') %>
   <% } %>

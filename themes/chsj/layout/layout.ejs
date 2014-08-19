@@ -1,14 +1,14 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>" itemscope itemtype="http://schema.org/Blog">
 <%- partial('_partial/head') %>
-
 <body>
-<div id="main">
+<div id="main" class="hfeed">
   <header id="header" class="inner"><%- partial('_partial/header') %></header>
   <div class="wrapper">
-      <div id="content" class="hfeed">
+      <section id="content" role="main">
         <%- body %>
-        <aside id="sidebar"><%- partial('_partial/sidebar') %></aside>
-        <div class="clearfix"></div>
-      </div>
+      </section>
+      <aside id="sidebar"><%- partial('_partial/sidebar') %></aside>
       <footer id="footer"><%- partial('_partial/footer') %></footer>
   </div>
 </div>

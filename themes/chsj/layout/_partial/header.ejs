@@ -3,10 +3,10 @@
 </div>
 <div class="buttons"></div>
 <div class="clearfix"></div>
-<nav id="main-nav" class="alignright">
-  <ul>
+<nav id="main-nav">
+  <ul role="menubar">
     <% for (var i in theme.menu){ %>
-      <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
+      <li role="menuitem"><a href="<%- theme.menu[i] %>"><%= i %></a></li>
     <% } %>
   </ul>
   <div class="clearfix"></div>
