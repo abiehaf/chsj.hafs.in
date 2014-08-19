@@ -3,7 +3,6 @@ menu:
   "Apa Ini?": /tentang/
   About Me: http://hafs.in/
   "@abiehaf": https://twitter.com/abiehaf
-  "+AbiHafshin": https://plus.google.com/100062897572011647423?rel=author
 
 widgets:
 - recent_posts
@@ -27,7 +26,7 @@ addthis:
   pinterest: false
 
 google_analytics: UA-53043721-2
-#google_analytics_domain: chsj.hafs.in
+google_analytics_domain: chsj.hafs.in
 
 comment_provider: disqus
 # Facebook comment
