@@ -1,6 +1,7 @@
 title: Untuk Kang Mad
 date: 2014-08-18 15:34:00
 category: Kisah
+keywords: Kang Mad, Mari Mengajar, Forkoma
 tags:
     - Mari Mengajar
     - Forkoma
@@ -62,11 +63,11 @@ Singkat cerita skenario kepala pemuda berhasil dijalankan. Banyak *volunteer* ya
   *-- sekarang udah tau kan*
 * Tokoh pemuda abal-abal, baik, asik, segrek :p
   *-- thanks :)*
-* PENIPUAN HAHA... Semangat :) **
+* PENIPUAN HAHA... Semangat :) 
   *-- bukan menipu, tapi menambah kesan*
 * asli sampe sekarang gue ga tau sebenernya lu itu siapa! titisan  
   *-- ga selesai?*
-* Makan yang Banyak! Jangan ng** *(ga tau nulis apa)* aja, berobat gih!
+* Makan yang Banyak! Jangan ng~~~ *(ga tau nulis apa)* aja, berobat gih!
   *-- siph*
 * Kang Mad Thobei is the best
   *-- thanks brow*

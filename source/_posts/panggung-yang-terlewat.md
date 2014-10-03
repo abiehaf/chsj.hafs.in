@@ -1,6 +1,7 @@
 title: Panggung yang Terlewat
 date: 2014-07-24 02:56:14
 tags: [SMA, Cinta, Prestasi]
+keywords: panggung, terlewat
 category: Kisah
 ---
 Meskipun gue agak sedikit bego, tapi guru-guru di SMA masih mau ngasih nilai gede ke gue. Selama di SMA, gue dapet 4 kali juara kelas dan 2 kali juara umum. Bukan karena temen-temen gue lebih bego dari gue, toh tiap kali ada tugas, gue liat jawaban temen-temen gue.<!-- more --> Hipotesis gue, ini dikarenakan mata pelajaran yang gue bisa guru nya pelit nilai, sedangkan mata pelajaran yang gue ga becus, guru nya ga perhitungan kalo ngasih nilai. Dampaknya temen-temen gue yang lebih pinter dari gue, nilai rapornya lebih kecil dari gue.

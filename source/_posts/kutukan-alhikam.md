@@ -1,6 +1,7 @@
 title: Kutukan Alhikam
 date: 2014-08-04 19:12:59
 category: Kisah
+keywords: alhikam, kostan
 tags:
     - Asrama
     - Kostan

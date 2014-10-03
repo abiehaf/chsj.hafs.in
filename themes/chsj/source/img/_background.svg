@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   inkscape:export-filename="/home/abie/Projects/hafs.in/chsj/themes/chsj/source/img/background.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45"
+   sodipodi:docname="_background.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#d6d6d6"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="156.50754"
+     inkscape:cy="216.12416"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="742"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-652.36218)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3766"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3768"><rect
+           id="rect3770"
+           width="196.97975"
+           height="146.47212"
+           x="262.63965"
+           y="317.98129" /></flowRegion><flowPara
+         id="flowPara3772" /></flowRoot>    <image
+       y="852.36218"
+       x="0"
+       id="image3782"
+       xlink:href="file:///home/abie/Projects/hafs.in/chsj/themes/chsj/source/img/forever-alone.jpg"
+       height="200"
+       width="200"
+       style="opacity:0.14705882" />
+    <rect
+       style="opacity:0.14705882;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3785"
+       width="200"
+       height="200"
+       x="0"
+       y="652.36218" />
+    <image
+       style="opacity:0.14705882"
+       width="200"
+       height="200"
+       xlink:href="file:///home/abie/Projects/hafs.in/chsj/themes/chsj/source/img/forever-alone.jpg"
+       id="image3787"
+       x="200"
+       y="652.36218" />
+    <rect
+       y="852.36218"
+       x="200"
+       height="200"
+       width="200"
+       id="rect3789"
+       style="opacity:0.14705882;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:33.51882171999999827px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.14705882;fill:#000000;fill-opacity:1;stroke:none;font-family:FZWeiBei-S03;-inkscape-font-specification:FZWeiBei-S03"
+       x="99.934532"
+       y="743.45874"
+       id="text3791"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="99.934532"
+         y="743.45874"
+         id="tspan3799">TOGETHER</tspan><tspan
+         sodipodi:role="line"
+         x="99.934532"
+         y="785.35724"
+         id="tspan3009">ALONE</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3011"
+       y="943.45874"
+       x="299.93454"
+       style="font-size:33.51882171999999827px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.14705882;fill:#000000;fill-opacity:1;stroke:none;font-family:FZWeiBei-S03;-inkscape-font-specification:FZWeiBei-S03"
+       xml:space="preserve"><tspan
+         id="tspan3013"
+         y="943.45874"
+         x="299.93454"
+         sodipodi:role="line">TOGETHER</tspan><tspan
+         id="tspan3015"
+         y="985.35724"
+         x="299.93454"
+         sodipodi:role="line">ALONE</tspan></text>
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 title: Golongan Paling Sempurna
 date: 2014-08-02 12:09:52
 category: Unek
+keyword: golongan, sempurna, satir
 tags:
     - Golongan
     - Sarkas

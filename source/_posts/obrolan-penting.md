@@ -1,6 +1,7 @@
 title: Obrolan Penting
 date: 2014-07-31 14:56:18
 category: Perilaku
+keywords: obrolan penting
 tags:
     - Obrolan Penting
 ---

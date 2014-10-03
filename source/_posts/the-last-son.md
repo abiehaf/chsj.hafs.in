@@ -1,6 +1,7 @@
 title: The Last Son
 date: 2014-07-24 02:46:54
-tags: [Bungsu, Keluarga, ]
+keywords: Last Son
+tags: [Bungsu, Keluarga]
 category: Kisah
 ---
 Cerita ini dimulai ketika tuhan berfirman pada malaikat, "Wahai malaikat, sesungguhnya Aku hendak menciptakan manusia sebagai khalifah di muka bumi". Kemudian malaikat bertanya, "Tuhan, kenapa engkau ciptakan manusia yang akan merusak bumi, sedang kami selalu bersujud padaMu". Tuhan pun menjawab, "Sesungguhnya Aku maha mengetahui yang kalian tidak ketahui".<!-- more -->

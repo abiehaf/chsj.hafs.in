@@ -9,7 +9,7 @@ description: Asli Keren, Bukan Bajakan ataupun Dibajak
 author: Abi Hafshin
 author_link: http://hafs.in
 email: abi@hafs.in
-language: id_ID
+language: id
 cover: http://chsj.hafs.in/img/forever-alone.jpg
 
 # URL
@@ -95,9 +95,9 @@ feed:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo:
-    origin: abie@hafs.in:git/chsj.git
+  type: github
+  repo: git@github.com:abiehaf/chsj.hafs.in.git
+  branch: gh-pages
 
 
 

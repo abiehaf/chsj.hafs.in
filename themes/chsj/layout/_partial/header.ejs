@@ -1,13 +1,23 @@
 <div id="title">
-  <h1 itemprop="name"><a rel="home" itemprop="url" href="<%- config.root %>" ><%= config.title %></a></h1>
+  <h1 itemprop="name"><a rel="home" itemprop="url" href="<%- config.url %>" ><%= config.title %></a></h1>
 </div>
 <div class="buttons"></div>
 <div class="clearfix"></div>
 <nav id="main-nav">
   <ul role="menubar">
-    <% for (var i in theme.menu){ %>
-      <li role="menuitem"><a href="<%- theme.menu[i] %>"><%= i %></a></li>
-    <% } %>
+    <li role="menuitem"><a href="<%- config.root %>">Home</a></li>
+    <li role="menuitem"><a href="<%- config.root %>tentang">Apa Ini?</a></li>
+    <li role="menuitem">
+      <a href="<%- config.root %>#">Follow Me</a>
+      <ul role="menu" class="sub-menu">
+        <li role="menuitem"><a href="http://hafs.in/id/">Home Page</a></li>
+        <li role="menuitem"><a href="https://twitter.com/abiehaf">Twitter</a></li>
+        <li role="menuitem"><a href="https://github.com/abiehaf">Github</a></li>
+        <li role="menuitem"><a href="http://id.linkedin.com/in/abihafshin">Linked In</a></li>
+        <li role="menuitem"><a href="https://www.facebook.com/abiehafshin">Facebook</a></li>
+        <li role="menuitem"><a href="http://ask.fm/abiehaf">Ask.fm</a></li>
+      </ul>
+    </li>
   </ul>
   <div class="clearfix"></div>
 </nav>

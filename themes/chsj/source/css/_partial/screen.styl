@@ -1,0 +1,251 @@
+@import "variable"
+
+@media screen
+  body
+    margin 0
+    padding 0
+
+  h1, h2, h3, h4, h5, h6
+    font-size 1em
+    font-weight bold
+    padding 0
+    margin 1em 0 0 0
+
+  p
+    margin 0 0 1em 0
+
+  blockquote
+    margin 0 0 .5em 2em
+
+
+  .align-center
+    text-align center
+
+
+  .pull-left
+    float left
+
+  .pull-right
+    float right;
+
+
+  #main
+    background-color black;
+
+
+  #header
+    padding 3px 7px;
+    color #ffffff
+    line-height 25px
+    font-size 10pt
+
+    a
+      color #fff
+
+
+    #title
+      font-weight bold
+      float left
+      height 25px
+
+      h1
+        margin 0
+        display inline-block
+        background-image url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHGSURBVDiNdZI9rtpAFIXP3Du2ZH4KXIEQoiEhSJCOJWQFdFSUiB6JMgt4C2AH7AGJDVCmSfTS0oIbS4OG+UmRNyMbkiuNRlOcz+ecazGZTL5JKd+I6KsQAkIIEBGEEACAXq8HKSW897Vjrf2plNqK6XT6YzAYzJrNZhRWAa1WC41GoyZ2zkEphcvl8ksy80xrDaUUiAjMHAFCCJRliU6nE4XhMDOY+QsBgDEG2+0Ws9kMzAwpJZIkQZqmeI4VnGmt/4K63e73LMvQbrexXC4xn89RliWu1yuklNERM7/EuN/vIO89AOB0OmG32+F2u2Gz2aA64WvVGB9FQobHcDjEYrFAv9/H4XCAMQbOOQCAcw5SSjjnYK2NdwQ457BarXA8HnE+nwGgltd7D6UUmLkGMMZAjMdjn+c5pJSxLCLCfr9HkiQxxnq9RpqmMYa1FkVRQIxGI5/neRQ+/wfVybKs1kNRFJDGGDwejxdAiBEihJuIYolaa8iQpbrnav4w3nsYY5AkSXRhjKk7eBY/OwgbCYDo4BlQFVcdAIC1NoK01pDe+3et9WdmflnfvzoAACIK63yXRLRVSr0B+PRS+3/mA/ybiLZ/AIRYR8JbOSR3AAAAAElFTkSuQmCC")
+        background-position 5px 50%
+        background-repeat no-repeat
+        padding-left 30px
+        height 25px
+        overflow hidden
+
+        a:before
+          content "abi@hafs.in: ~/"
+
+
+    .buttons
+      float right
+      width 48px
+      height 16px
+      display inline
+      background url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB9SURBVEiJY9TV1f3PMIQB00A7gFIw6oGBBizUNnD9+vV45QMDA4nSj64Ol/igjQHkgMAXKFSPARjAFYLE6IOpRdeDLfYGZQxgcyiupDcoPUAKGJQewJbccCVBjDxAaSlCrDnE6IPZhZwnhkwphOxQfIHGONoWGmAw6oGBBgDQ/C5LrbJa5gAAAABJRU5ErkJggg==') no-repeat
+      margin-top 5px
+
+    @media (max-width: 400px)
+      .buttons
+        display none
+
+
+    #main-nav
+      font-size .9em
+      ul
+        margin 0
+        padding 0
+      li
+        display inline-block
+        margin 0 2px
+        position relative
+
+        a
+          display block
+          padding 5px
+          line-height 1
+          transition background-color .3s
+
+          &:hover, &:focus
+            text-decoration none
+            background-color rgba(255, 255, 255, .2)
+
+      .sub-menu
+        position absolute
+        background-color black
+        border 1px solid #777
+        width 200px
+        left 0
+        top 16px
+        visibility hidden
+        transition all .3s
+        opacity 0
+        transform scale(0.7)
+
+        li
+          display block
+          margin 0
+
+          a
+            padding-left 20px
+
+      li:hover .sub-menu, a:active+.sub-menu, a:focus+.sub-menu
+        visibility visible
+        opacity 1
+        transform scale(1)
+
+
+  .wrapper
+    background-color #fffdf4
+    color #444
+    padding 1px
+    font-family mono-font
+    font-size 12pt
+    line-height 1.2em
+
+
+  #content
+    min-height 400px
+    padding 3px
+
+    .header
+      margin-bottom .5em
+
+      .title
+        margin 0
+
+    .post-meta
+      background-color #444
+      font-size .95em
+      color #bbb
+      margin-bottom 2em
+
+      .author, .time
+        color #ddd
+
+      a
+        color #dde
+        &:hover
+          color #eeeef3
+
+      .more-link
+        font-weight bold
+
+    .post-content
+      margin-left 2em
+
+    .page-title
+      margin 0 0 1.5em
+
+    .prefixed
+      &:before, &:after
+        font-weight normal
+
+      &:after
+        content '"'
+
+      &.cat:before
+        content prompt + ' cat "Posts/'
+
+      &.ls:before
+        content prompt + ' ls -al "'
+
+      &.category:before
+        content prompt + ' ls -al "categories/'
+
+      &.tag:before
+        content prompt + ' ls -al "tags/'
+
+      &.ls:after, &.category:after, &.tag:after
+        content '/*"'
+
+  #pagination
+    text-align center
+    font-weight bold
+    background-color #444
+    width 200px
+    margin 0 auto
+
+    a
+      color #fff
+    span
+      color #9097a4
+
+    .next::after
+      content ' »'
+    .prev::before
+      content '« '
+
+  @media (min-width: 930px)
+    body
+      background #fffdf4 url(../../img/background.png) center center
+      background-attachment fixed
+
+    #main
+      margin 15px auto
+      max-width 900px
+      border 1px solid black
+      box-shadow 0 0 1px #ccc inset, 0 0 20px rgba(0, 0, 0, .3)
+
+    .wrapper
+      margin 8px
+      margin-top 0
+      box-shadow 0 0 1px #000 inset
+
+    body
+      background-color #cccccc
+
+  @media (min-width: 500px)
+    #sidebar
+      .widget
+        display inline-block
+        vertical-align top
+        width 47%
+        margin 0 1%
+
+  #sidebar
+    .widget ul
+      margin 0 0 0 1em
+      padding 0
+
+    .tag li small
+      &:before
+        content "["
+
+      &:after
+        content "]"
+
+  #footer
+    font-family "Open Sans", sans-serif
+    font-size 9pt
+    margin-top 2em
+    background-color #ddd
+    color #555
+    text-align center
+    padding 3px
+

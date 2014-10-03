@@ -1,5 +1,6 @@
 title: Tuhan dan Batu
 date: 2014-08-08 20:48:56
+keyword: Tuhan, Logika
 category: Unek
 tags:
     - Logika

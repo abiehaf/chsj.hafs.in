@@ -2,6 +2,7 @@ title: Dokter Sulam
 date: 2014-08-19 18:26:15
 updated: 2014-08-19 18:26:15
 category: Kisah
+keywords: dokter sulam, dilema
 tags: 
     - Fiktif
     - Dilema
@@ -21,6 +22,5 @@ Kehidupan dokter Sulam sendiri tidak begitu kekurangan walau kadang dia meminjam
 
 bersambung ... 
 
----------------
-original: [Dokter Sulam (Facebook Note)](https://www.facebook.com/notes/abi-hafshin-alfarouq/dokter-sulam/10151670021037220)
-didedikasikan untuk para penggiat *free and open source software*.
+  > original: [Dokter Sulam (Facebook Note)](https://www.facebook.com/notes/abi-hafshin-alfarouq/dokter-sulam/10151670021037220)
+  > didedikasikan untuk para penggiat *free and open source software*.
