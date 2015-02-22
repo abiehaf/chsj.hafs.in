@@ -69,7 +69,7 @@ logger_format:
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: D MMM YYYY
-time_format: H:mm:ss
+time_format: H:mm
 
 # Pagination
 ## Set per_page to 0 to disable pagination

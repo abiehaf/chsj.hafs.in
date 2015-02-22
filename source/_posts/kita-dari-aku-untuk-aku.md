@@ -1,10 +1,12 @@
 title: KITA - dari Aku untuk Aku
-date: 2014-11-21 12:42:44
-updated: 2014-11-21 12:42:44
 category: Unek
-tags: 
+tags:
   - Puisi
   - Indonesia
+categories:
+  - Unek
+date: 2014-11-21 12:42:00
+updated: 2014-11-21 12:42:44
 ---
 Kita
 Kenapa Kita
