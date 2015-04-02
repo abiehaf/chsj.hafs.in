@@ -8,7 +8,7 @@ date: 2015-02-22 18:47:00
 updated: 2015-02-22 18:47:08
 category:
 ---
-Huaaah, udah lama gue ga nulis. Ceritanya lagi so-so-an ngambil skripsi, padahal gue ga bisa nulis. Bodo amat, yang penting asik. Ok, kembali ke topok utama, gue tiba-tiba keinget sebuah kisah tentang seorang yang gue kenal. Tapi kisah ini gue denger dari temen gue yang lain. Jadi kalo ada kesamaan cerita, mohon maaf. <!--more-->
+Huaaah, udah lama gue ga nulis. Ceritanya lagi so-so-an ngambil skripsi, padahal gue ga bisa nulis. Bodo amat, yang penting asik. Ok, kembali ke topik utama, gue tiba-tiba keinget sebuah kisah tentang seorang yang gue kenal. Tapi kisah ini gue denger dari temen gue yang lain. Jadi kalo ada kesamaan cerita, mohon maaf. <!--more-->
 
 Meski ini bukan dongeng, mari kita mulai dengan di suatu hari ada seorang pemuda. Dan agar cerita ini lebih romantis kita sebut pemuda ini Ali. Ali merupakan seorang hamba Tuhan yang taat namun dia bukan lah seorang ulama, setidaknya belum.
 
