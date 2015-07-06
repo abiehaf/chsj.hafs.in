@@ -37,7 +37,7 @@
     <meta itemprop="author" content="<%= config.author %>">
     <meta name="author" content="<%= config.author %>">
   <% } %>
-  <link rel="author" href="https://plus.google.com/100062897572011647423" />
+  <link rel="author" href="<%= theme.google_plus %>" />
 
   <%- open_graph({
     twitter_id: theme.twitter.username, 
@@ -50,6 +50,10 @@
     <meta property="og:image" content="<%= page.cover %>" />
   <% } else { %>
     <meta itemprop="image" property="og:image" content="<%= config.cover %>"/>
+  <% } %>
+  
+  <% if (theme.google_verification) { %>
+    <meta name="google-site-verification" content="<%= theme.google_verification %>" />
   <% } %>
 
   <link href="<%- config.root %>favicon.ico" rel="icon" type="image/png">
