@@ -93,6 +93,22 @@ feed:
     type: atom
     path: atom.xml
     limit: 20
+
+# Optimization
+asset_pipeline:
+  revisioning:
+    enable: true
+    keep: true
+  exclude: ['robots.txt', '*.xml']
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
